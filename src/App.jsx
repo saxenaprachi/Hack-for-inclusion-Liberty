@@ -5,7 +5,7 @@ import DefaultHOC from "./HOC/Default.HOC";
 import ContactUs from "./components/Hompagesections/ContactUs.component";
 import ApplyNow from "./components/ApplyNow/ApplyNow.component";
 import EmployeeDashboard from "./components/Dashboard/EmployeeDashboard.component";
-
+import home from "./components/Dashboard/Home.component";
 
 
 
@@ -21,6 +21,7 @@ function App() {
       <DefaultHOC path="/" exact component={ AboutUs}/>
       <DefaultHOC path="/" exact component={ ContactUs}/>
       <DefaultHOC path="/dashboard" exact component={ EmployeeDashboard}/>
+      <DefaultHOC path="/dashboard" exact component={ home}/>
       
       
 
