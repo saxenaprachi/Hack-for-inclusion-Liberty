@@ -3,10 +3,11 @@ import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Heroimg from '../../assets/hero.jpg'
 import logo from '../../assets/logo.png'
+import {Link} from 'react-scroll'
 
 const navigation = [
-  { name: 'About Us', href: '#' },
-  { name: 'Conatct Us', href: '#' },
+  { name: 'About Us', href:'/aboutus'},
+  { name: 'Contact Us', href:'#' },
 ]
 
 export default function HomeHero() {
@@ -130,7 +131,7 @@ export default function HomeHero() {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="#"
+                    href='/JoinUs'
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                   >
                     Join Us
@@ -138,7 +139,7 @@ export default function HomeHero() {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="#"
+                    href="/Signin"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                   >
                     Log In

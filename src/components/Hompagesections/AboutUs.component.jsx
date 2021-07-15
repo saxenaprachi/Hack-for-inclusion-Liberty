@@ -30,7 +30,7 @@ const features = [
 
 export default function AboutUs() {
   return (
-    <div className="py-12 bg-white">
+    <div className="py-12 bg-white" id={'aboutUs'}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase text-5xl">Transactions <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
