@@ -3,11 +3,10 @@ import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Heroimg from '../../assets/hero.jpg'
 import logo from '../../assets/logo.png'
-import {Link} from 'react-scroll'
 
 const navigation = [
-  { name: 'About Us', href:'/aboutus'},
-  { name: 'Contact Us', href:'#' },
+  { name: 'About Us', href:'#aboutus'},
+  { name: 'Contact Us', href:'#ContactUs' },
 ]
 
 export default function HomeHero() {
@@ -121,7 +120,7 @@ export default function HomeHero() {
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                <span className="block xl:inline">Join Liberty Today</span>{' '}
+                <span className="block xl:inline">We are Hiring!!!!</span>{' '}
                 <br/>
                 <span className=" text-indigo-600 text-5xl">Unbaised Hiring</span>
               </h1>
@@ -134,17 +133,10 @@ export default function HomeHero() {
                     href='/JoinUs'
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                   >
-                    Join Us
+                    Apply Now!!!
                   </a>
                 </div>
-                <div className="mt-3 sm:mt-0 sm:ml-3">
-                  <a
-                    href="/Signin"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
-                  >
-                    Log In
-                  </a>
-                </div>
+                
               </div>
             </div>
           </main>
@@ -157,6 +149,8 @@ export default function HomeHero() {
           alt=""
         />
       </div>
+      
     </div>
+  
   )
 }
