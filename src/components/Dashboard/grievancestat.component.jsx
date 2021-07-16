@@ -14,6 +14,10 @@ const GrievancesStats =() =>{
       <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Submit your grievance</a>
       <p class="mt-2 text-gray-500">We believe every member of our organiser is entitled to have their voices heard. Your grievances will be kept anonymous and addressed within 48 working hours. You can also flag members of the redressal committee whom you don't want to involve in your request.</p>
     </div>
+    div class="p-8 pb-3">
+      <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Submit your grievance</a>
+      <p class="mt-2 text-gray-500">We believe every member of our organiser is entitled to have their voices heard. Your grievances will be kept anonymous and addressed within 48 working hours. You can also flag members of the redressal committee whom you don't want to involve in your request.</p>
+    </div>
     <div class="p-8 pt-2 pb-3">
               <div class="mt-1">
               <textarea class="w-full h-16 px-3 py-2 text-base text-gray-700 placeholder-gray-600 border rounded-lg focus:shadow-outline" placeholder="Write down your grievance here.."></textarea>
