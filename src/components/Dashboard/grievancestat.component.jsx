@@ -4,7 +4,7 @@ const GrievancesStats =() =>{
     return(
         <div className="md:flex">
 
-        <div class=" bg-gray-100 rounded-xl shadow-md overflow-hidden  w-5/12 lg:ml-16 mt-5 z-30  hover:shadow-2xl">
+        <div class=" divide-gray-200 rounded-xl shadow-md overflow-hidden  w-5/12 lg:ml-16 mt-5 z-30  hover:shadow-2xl">
   <div class=" w-full">
     <div class="w-full ">
       <img class="h-48 w-full object-cover " src={Applicant} alt="Man looking at item at a store"/>

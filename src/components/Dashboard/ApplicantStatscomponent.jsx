@@ -2,7 +2,7 @@ import React from "react";
 import Applicant from '../../assets/Applicants.png'
 const ApplicantStats =() =>{
     return(
-        <div class=" bg-gray-100 rounded-xl shadow-md overflow-hidden  w-11/12 ml-16  z-30  hover:shadow-2xl">
+        <div class=" divide-gray-200 rounded-xl shadow-md overflow-hidden  w-11/12 ml-16  z-30  hover:shadow-2xl">
   <div class="md:flex w-full">
     <div class="md:flex-shrink-0 ">
       <img class="h-48 w-full object-cover md:w-48" src={Applicant} alt="Man looking at item at a store"/>
