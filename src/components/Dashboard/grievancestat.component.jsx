@@ -9,12 +9,31 @@ const GrievancesStats =() =>{
     <div class="w-full ">
       <img class="h-48 w-full object-cover " src={Applicant} alt="Man looking at item at a store"/>
     </div>
-    <div class="p-8">
-      <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Case study</div>
-      <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Finding customers for your new business</a>
-      <p class="mt-2 text-gray-500">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
+    <div class="p-8 pb-3">
+     
+      <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Submit your grievance</a>
+      <p class="mt-2 text-gray-500">We believe every member of our organiser is entitled to have their voices heard. Your grievances will be kept anonymous and addressed within 48 working hours. You can also flag members of the redressal committee whom you don't want to involve in your request.</p>
     </div>
-  </div>
+    <div class="p-8 pt-2 pb-3">
+              <div class="mt-1">
+              <textarea class="w-full h-16 px-3 py-2 text-base text-gray-700 placeholder-gray-600 border rounded-lg focus:shadow-outline" placeholder="Write down your grievance here.."></textarea>
+              </div>
+              <div class="mt-1">
+                <label class="text-gray-700">
+                <input type="checkbox" value=""/>
+                <span class="ml-1">Remain Anonymous</span>
+                </label>
+              </div>
+              <button
+              type="submit"
+              className="group relative w-full flex justify-center my-8 py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            >
+              <span className="absolute left-0 inset-y-0 flex items-center pl-3">
+              </span>
+              Submit
+            </button>
+
+    </div>
 </div>
 
 <div class="flex flex-col w-1/2 mt-8">
