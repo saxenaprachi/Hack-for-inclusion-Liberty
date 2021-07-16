@@ -32,6 +32,12 @@ Liberty focuses on three key areas: acknowleding biases exisiting in the environ
 
 ## SCREENSHOTS
 
+<br/>
+<p align="center">
+    <img width="80%" src="https://github.com/chinmaychahar/Hack-for-inclusion-Liberty/blob/master/images/liberty-ss.gif" alt="Liberty Slideshow">
+</p>
+<br/>
+
 ## CONTRIBUTORS
 
 Prachi| Chinmay| 
