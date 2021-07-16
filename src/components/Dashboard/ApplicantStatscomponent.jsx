@@ -1,5 +1,5 @@
 import React from "react";
-import Applicant from '../../assets/Applicants.png'
+import graph from '../../assets/graph.png'
 const ApplicantStats =() =>{
     return(
        <div class=" divide-gray-200 rounded-xl shadow-md overflow-hidden  w-11/12 ml-16  z-30  hover:shadow-2xl">
