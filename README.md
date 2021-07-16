@@ -22,6 +22,10 @@ Liberty focuses on three key areas: acknowleding biases exisiting in the environ
 	      <span><strong>Tailwind CSS</strong></span><br><br><br>
         <img height="100px" src="https://iconape.com/wp-content/files/an/351546/svg/tailwind-css-seeklogo.com.svg">
       </td>
+	    <td width="25%" align="center">
+	      <span><strong>Python</strong></span><br><br><br>
+        <img height="100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png">
+      </td>
      </tr>
   </tbody>
 </table>
