@@ -3,14 +3,13 @@ import Applicant from '../../assets/Applicants.png'
 const GrievancesStats =() =>{
     return(
         <div className="md:flex">
-
+        
         <div class=" divide-gray-200 rounded-xl shadow-md overflow-hidden  w-5/12 lg:ml-16 mt-5 z-30  hover:shadow-2xl">
   <div class=" w-full">
     <div class="w-full ">
-      <img class="h-48 w-full object-cover " src={Applicant} alt="Man looking at item at a store"/>
     </div>
     <div class="p-8 pb-3">
-     
+    
       <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Submit your grievance</a>
       <p class="mt-2 text-gray-500">We believe every member of our organiser is entitled to have their voices heard. Your grievances will be kept anonymous and addressed within 48 working hours. You can also flag members of the redressal committee whom you don't want to involve in your request.</p>
     </div>
@@ -34,6 +33,7 @@ const GrievancesStats =() =>{
             </button>
 
     </div>
+  </div>
 </div>
 </div>
 
